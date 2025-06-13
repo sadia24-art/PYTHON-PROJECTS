@@ -25,19 +25,7 @@ everyone was talking about the amazing feat. It truly was a day to remember!"""
 print("\nHere's your Madlib story: ")
 print(madlib)
 
-!pip install numpy pandas matplotlib scikit-learn streamlit
 
-!pip install streamlit
-
-import streamlit as st
-
-# Title
-st.title("My AI Project")
-
-# Input Section
-input_value = st.text_input("Enter input:")
-
-# Output Section
 if st.button("Run"):
     result = f"Processed output for {input_value}"
     st.write(result)
